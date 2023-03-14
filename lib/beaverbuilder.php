@@ -1,17 +1,17 @@
 <?php 
-    function client_custom_colors_presets( $colors ) {
-         $colors = array();
+  function client_custom_colors_presets( $colors ) {
+    $colors = array();
 
-         /**
-          *  Add colors from assets/styles/common/_color.scss 
-          *
-          * This will add all the brand colors to Beaver Builder Color Picker
-          *  
-          * REMEMBER TO REMOVE "#" from the Hex
-          */
-    
-            return $colors;
-    }
+    /**
+    * Add colors from assets/styles/common/_color.scss 
+    *
+    * This will add all the brand colors to Beaver Builder Color Picker
+    *  
+    * REMEMBER TO REMOVE "#" from the Hex
+    */
+
+    return $colors;
+  }
 
 add_filter( 'fl_builder_color_presets' , 'client_custom_colors_presets');
 
