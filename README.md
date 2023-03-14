@@ -1,6 +1,6 @@
 # [Sprout](https://jasen.dev/)
 
-Sprout is a WordPress starter theme based on HTML5 Boilerplate, Sage theme, Webpack 5, Bootstrap and Sass, that will help you make better themes.
+Sprout is a WordPress starter theme based on HTML5 Boilerplate, Sage theme 8.5, Webpack 5, Bootstrap and Sass.
 
 * Sage Reference: [https://github.com/roots/sage](https://github.com/roots/sage)
 * Sage Documentation: [https://roots.io/sage/docs/](https://roots.io/sage/docs/)
@@ -15,6 +15,7 @@ Sprout is a WordPress starter theme based on HTML5 Boilerplate, Sage theme, Webp
 ## Features
 
 * [Bootstrap](http://getbootstrap.com/)
+* [Webpack](https://webpack.js.org/)
 * [Theme wrapper](https://roots.io/sage/docs/theme-wrapper/)
 
 Install the [Soil](https://github.com/roots/soil) plugin to enable additional features:
@@ -45,5 +46,6 @@ npm install
 
 ## Documentation
 
+Webpack integration [https://taylor.callsen.me/using-webpack-5-and-sass-with-wordpress/](https://taylor.callsen.me/using-webpack-5-and-sass-with-wordpress/).
 Sage documentation is available at [https://roots.io/sage/docs/](https://roots.io/sage/docs/).
 
